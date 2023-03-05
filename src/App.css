@@ -245,9 +245,68 @@ margin-bottom: 2rem !important;
 
 @media only screen and (max-width: 576px) {
     h4 {
-        font-size: 1rem;
+        font-size: 0.75em;
+    }
+    h3{
+        font-size: 1em;
+    }
+    h2{
+        font-size: 1.2em;
+    }
+    h1{
+        font-size: 1.4em;
+    }
+    label{
+        font-size: 0.6em;
+    }
+    a{
+        font-size: 0.6em;
+    }
+    .card-text{
+        font-size: 0.6em;
+        text-align: center;
+    }
+    .card-text-cart{
+        font-size: 0.6em;
+        text-align: center;
     }
     .btn {
         font-size: .5rem;
+        padding: 1.5em 1.5em;
+    }
+    .card-body{
+        padding: .5em;
+    }
+    .card-title{
+        height: 30px;
+    }
+    .card-title-cart{
+        font-size: 0.75em;
+        text-align: center;
+    }
+    .row {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .col {
+        padding: 0.5em;
+    }
+    #productos {
+        margin: 0px;
+        padding: 0px !important;
+    }
+
+    .container{
+        padding: 1em !important;
+    }
+
+    .divButtons button{
+        min-width: 200px;
+    }
+
+    .extra-margin-hero{
+        margin-bottom: 1em !important;
+        margin-top: 1em !important;
     }
   }
